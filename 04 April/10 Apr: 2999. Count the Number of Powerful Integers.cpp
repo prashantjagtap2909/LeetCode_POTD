@@ -1,6 +1,6 @@
 class Solution {
 public:
-    long long numberOfPowerfulInt(long long start, long long finish, int limit, string s) {
+    long long numberOfPowerfulInt(long long start, long long finish, int limit, string suffix) {
          auto countPowerfulUpTo = [&](int num) -> int {
             string numStr = to_string(num);
             int suffixLen = suffix.size();
