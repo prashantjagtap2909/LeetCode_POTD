@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int numberOfArrays(vector<int>& differences, int lower, int upper) {
+    int numberOfArrays(vector<int>& diff, int lower, int upper) {
         long sum = 0, maxi = 0, mini = 0;
         for (int i : diff) {
             sum += i;
